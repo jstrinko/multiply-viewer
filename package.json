@@ -1,0 +1,13 @@
+{
+    "name": "multiply-viewer",
+    "description": "import your Multiply.com content and browse locally",
+    "version": "0.0.1",
+    "dependencies": {
+	"multiply": "0.0.1",
+	"express": "3.0.0rc4",
+	"mongodb": "1.1.7",
+	"mysql": "2.0.0-alpha3",
+	"socket.io": "0.9.10",
+	"glob": "3.1.13"
+    }
+}

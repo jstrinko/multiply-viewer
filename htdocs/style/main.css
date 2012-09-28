@@ -1,0 +1,17 @@
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: arial, sans-serif;
+    font-size: 1em;
+    font-color: #000;
+    display: block;
+}
+header {
+    display: block;
+}
+content {
+    display: block;
+}
+footer {
+    display: block;
+}

@@ -1,0 +1,32 @@
+{
+    "routes":  {
+	"/": { 
+	    "method": "normal", 
+	    "local": "/index" 
+	},
+	"/collection/:id": { "method": "collection" },
+	"/api/:id": { "method": "api" }
+    },
+    "collections": {
+	"scripts": {
+	    "content_type": "text/javascript",
+	    "files": [
+		"/scripts/json2.js",
+		"/scripts/underscore-min.js",
+		"/scripts/backbone-min.js",
+		"/scripts/controller.js",
+		"/scripts/socket.io.min.js",
+		"/scripts/views/*.js",
+		"/scripts/models/*.js",
+		"/scripts/collections/*.js",
+		"/scripts/templates/*.jst"
+	    ]
+	},
+	"style": {
+	    "content_type": "text/css",
+	    "files": [
+		"/style/*.css"
+	    ]
+	}
+    }
+}
