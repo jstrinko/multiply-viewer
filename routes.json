@@ -10,12 +10,13 @@
     "collections": {
 	"scripts": {
 	    "content_type": "text/javascript",
+	    "include_vars": ["config", "routes", "hostname"],
 	    "files": [
 		"/scripts/json2.js",
 		"/scripts/underscore-min.js",
 		"/scripts/backbone-min.js",
-		"/scripts/controller.js",
 		"/scripts/socket.io.min.js",
+		"/scripts/controller.js",
 		"/scripts/views/*.js",
 		"/scripts/models/*.js",
 		"/scripts/collections/*.js",
